@@ -1,0 +1,21 @@
+.jumbotron {
+  padding-top: 7rem;
+  background-color: #b4e197;
+}
+#galeri {
+  background-color: #b4e197;
+  box-sizing: border-box;
+}
+section {
+  padding-top: 6rem;
+}
+.button {
+  background-color: #4e944f;
+  box-shadow: #b4e197 4px 4px 0px;
+  border-radius: 6px;
+  transition: transform 200ms, box-shadow 200ms;
+}
+.button:active {
+  transform: translateY(4px) translateX(4px);
+  box-shadow: #b4e197 0px 0px 0px;
+}
